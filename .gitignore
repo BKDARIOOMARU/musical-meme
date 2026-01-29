@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/
+*.streamlit.run
+
+# Audio samples (keep sample.wav but ignore generated ones)
+samples/*.wav
+!samples/.gitkeep
+
+# Environment
+.env
+.env.local
+
+# Node (for mobile wrapper)
+node_modules/
+npm-debug.log
+dist/
+
+# Cordova/Capacitor
+cordova/platforms/
+cordova/plugins/
+mobile/node_modules/
+mobile/www/
+mobile/platforms/
+mobile/plugins/

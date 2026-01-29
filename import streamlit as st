@@ -1,0 +1,7 @@
+import streamlit as st
+
+st.title("My Streamlit App")
+st.write("Hello, world!")
+
+x = st.slider("Select avalue", 0, 100)
+st.write("You selected:", x)
